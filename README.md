@@ -10,7 +10,7 @@ Descrição do Projeto
 O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
 
 ### Etapa 1:
-Ferramenta:
+Serviço:
   - AWS RDS (Relational Database Service)
 
 Foco da ferramenta:
@@ -18,11 +18,13 @@ Foco da ferramenta:
 
 Caso de uso:
   - Implementação de um sistema de controle de estoque farmacêutico com replicação automática, backup seguro e conform idade regulatória (ANVISA).
-  - Permitir consultas em tempo real sobre disponibilidade de medicamentos, validade de lotes e histórico de distribuição para farmácias e hospitais cliente. Beneficios esperados: redução de 40% no tempo de consulta de estoque, eliminação de 95% de erros manuais, conformidade 100% com ANVISA, escalabilidade automática para crescimento de clientes
+  - Permitir consultas em tempo real sobre disponibilidade de medicamentos, validade de lotes e histórico de distribuição para farmácias e hospitais cliente.
+
+Beneficios esperados:
+  - Redução de 40% no tempo de consulta de estoque, eliminação de 95% de erros manuais, conformidade 100% com ANVISA, escalabilidade automática para crescimento de clientes.
 
 ### Etapa 2:
-
-Ferramenta
+Serviço:
   - AWS S3 (Simple Storage Service)
 
 Foco da ferramenta:
@@ -31,13 +33,28 @@ Foco da ferramenta:
 Caso de uso:
   - Centralizar armazenamento de documentos de conform idade (certificados ANVISA, receitas, lotes), registros de auditoria e backups de dados críticos.
   - Implementar versionamento de documentos com recuperação de desastres e integração com sistemas de gerenciamento de qualidade.
-  - Criptografia de dados em rep ouso e em trânsito, conformidade LGPD. Beneficios esperados: acesso instantâneo a documentos regulatórios, redução de 80% de tempo em buscas de arquivos, compliance automática com auditorias, eliminação de custos com armazenamento físico.
+  - Criptografia de dados em rep ouso e em trânsito, conformidade LGPD.
 
-Etapa 3:
+Beneficios esperados:
+  - Acesso instantâneo a documentos regulatórios, redução de 80% de tempo em buscas de arquivos, compliance automática com auditorias, eliminação de custos com armazenamento físico.
 
-[Nome da ferramenta]
-[Foco da ferramenta]
-[Descrição de caso de uso]
+### Etapa 3:
+Serviço:
+  - AWS Lambda + SNS (Serverless Computing e Simple Notification Service)
+
+Foco da ferramenta:
+  - Automação de processos críticos e notificações inteligentes de eventos farmacêuticos
+
+Caso de uso:
+  - Criar automações serverless para monitorar lotes próximos do vencimento, alertar sobre níveis baixos de estoque crítico e enviar notificações em tempo real para farmácias clientes.
+  - Reduzir custos operacionais eliminando servidores sempre ligados.
+  - Integração com RDS para processos acionados por eventos.
+
+Beneficios esperados: 
+  - Eliminação de 100% de processos manuais de monitoramento, redução de 60% em desperdídios de medicamentos por vencimento
+não detectado, redução de 70% em custos de infraestrutura, resposta automática em segundos.
+
+
 Conclusão
 A implementação de ferramentas na empresa [nome da empresa] tem como esperado [benefícios das ferramentas], o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
 
