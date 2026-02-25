@@ -4,28 +4,35 @@ Empresa: Abstergo Industries
 Responsável: José Farias
 
 ## Introdução
-Este relatório apresenta o processo de implementação de ferramentas na empresa ### Abstergo Industries ###, realizado por José Farias. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por José Farias. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
 
 Descrição do Projeto
 O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
 
-Etapa 1:
+### Etapa 1:
+Ferramenta:
+  - AWS RDS (Relational Database Service)
 
-[Ferramenta:
-  - AWS RDS (Relational Database Service)]
-[Foco da ferramenta:
-  - Gerenciamento centralizado de banco de dados para inventário, fornecedores e rastreabilidade de lotes de medicamentos]
-[Caso de uso:
+Foco da ferramenta:
+  - Gerenciamento centralizado de banco de dados para inventário, fornecedores e rastreabilidade de lotes de medicamentos
+
+Caso de uso:
   - Implementação de um sistema de controle de estoque farmacêutico com replicação automática, backup seguro e conform idade regulatória (ANVISA).
-  - Permitir consultas em tempo real sobre disponibilidade de medicamentos, validade de lotes e histórico de distribuição para farmácias e hospitais cliente. Beneficios esperados: redução de 40% no tempo de consulta de estoque, eliminação de 95% de erros manuais, conformidade 100% com ANVISA,
-escalabilidade automática para crescimento de clientesImplementação de um sistema de controle de estoque farmacêutico com replicação automática, backup seguro e conform idade regulatória (ANVISA). Permitir consultas em tempo real sobre disponibilidade de medicamentos,
-validade de lotes e histórico de distribuição para farmácias e hospitais cliente. Beneficios esperados: redução de 40% no tempo de consulta de estoque, eliminação de 95% de erros manuais, conformidade 100% com ANVISA,
-escalabilidade automática para crescimento de clientes]
-Etapa 2:
+  - Permitir consultas em tempo real sobre disponibilidade de medicamentos, validade de lotes e histórico de distribuição para farmácias e hospitais cliente. Beneficios esperados: redução de 40% no tempo de consulta de estoque, eliminação de 95% de erros manuais, conformidade 100% com ANVISA, escalabilidade automática para crescimento de clientes
 
-[Nome da ferramenta]
-[Foco da ferramenta]
-[Descrição de caso de uso]
+### Etapa 2:
+
+Ferramenta
+  - AWS S3 (Simple Storage Service)
+
+Foco da ferramenta:
+  - Armazenamento seguro, escalável e com conformidade regulatória para documentação farmacêutica
+
+Caso de uso:
+  - Centralizar armazenamento de documentos de conform idade (certificados ANVISA, receitas, lotes), registros de auditoria e backups de dados críticos.
+  - Implementar versionamento de documentos com recuperação de desastres e integração com sistemas de gerenciamento de qualidade.
+  - Criptografia de dados em rep ouso e em trânsito, conformidade LGPD. Beneficios esperados: acesso instantâneo a documentos regulatórios, redução de 80% de tempo em buscas de arquivos, compliance automática com auditorias, eliminação de custos com armazenamento físico.
+
 Etapa 3:
 
 [Nome da ferramenta]
