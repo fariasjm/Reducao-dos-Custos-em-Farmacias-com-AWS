@@ -1,7 +1,7 @@
 ### RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
-Data: 25/02/2026
-Empresa: Abstergo Industries 
-Responsável: José Farias
+  - Data: 25/02/2026
+  - Empresa: Abstergo Industries
+  - Responsável: José Farias
 
 ## Introdução
 Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por José Farias. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
@@ -9,7 +9,7 @@ Este relatório apresenta o processo de implementação de ferramentas na empres
 Descrição do Projeto
 O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
 
-### Etapa 1:
+## Etapa 1:
 Serviço:
   - AWS RDS (Relational Database Service)
 
@@ -23,7 +23,7 @@ Caso de uso:
 Beneficios esperados:
   - Redução de 40% no tempo de consulta de estoque, eliminação de 95% de erros manuais, conformidade 100% com ANVISA, escalabilidade automática para crescimento de clientes.
 
-### Etapa 2:
+## Etapa 2:
 Serviço:
   - AWS S3 (Simple Storage Service)
 
@@ -38,7 +38,7 @@ Caso de uso:
 Beneficios esperados:
   - Acesso instantâneo a documentos regulatórios, redução de 80% de tempo em buscas de arquivos, compliance automática com auditorias, eliminação de custos com armazenamento físico.
 
-### Etapa 3:
+## Etapa 3:
 Serviço:
   - AWS Lambda + SNS (Serverless Computing e Simple Notification Service)
 
@@ -55,11 +55,14 @@ Beneficios esperados:
 não detectado, redução de 70% em custos de infraestrutura, resposta automática em segundos.
 
 
-Conclusão
-A implementação de ferramentas na empresa [nome da empresa] tem como esperado [benefícios das ferramentas], o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+## Conclusão
+A implementação das ferramentas AWS na empresa Abstergo Industries tem como esperado melhorias significativas em eficiência operacional, conformidade regulatória e redução de custos. O AWS RDS proporciona um banco de dados robusto e seguro para rastreabilidade de medicamentos, o AWS S3 garante armazenamento conformado para documentação regulatória (ANVISA), e o Lambda + SNS automatizam processos críticos como monitoramento de vencimentos e alertas de estoque, eliminando a necessidade de infraestrutura on-premises. Essas soluções integradas aumentarão a produtividade da empresa, garantirão conformidade com regulamentações farmacêuticas, melhorarão a satisfação de clientes com notificações em tempo real e resultarão em economia de custos operacionais. Recomenda-se a continuidade da utilização das ferramentas implementadas e a exploração de novas tecnologias AWS, como Amazon Lookout for Metrics para análise preditiva de demanda e AWS IoT para rastreamento de temperatura em lotes de medicamentos sensíveis.
 
-Anexos
+## Anexos
 [lista de anexos, como manuais, documentos, planilhas, entre outros]
+
+### Em construção...
+
 
 Assinatura do Responsável pelo Projeto:
 
