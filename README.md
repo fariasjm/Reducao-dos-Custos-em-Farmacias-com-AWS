@@ -1,1 +1,11 @@
-# Reducao-dos-Custos-em-Farmacias-com-AWS
+# Redução dos Custos em Farmacias com AWS
+
+
+
+
+
+
+
+
+
+
